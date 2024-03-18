@@ -5,11 +5,15 @@ ZooFeedingCostAPI is a .NET Core Web API project developed to calculate the dail
 
 # Table of Contents
 Installation
-Usage
+
 Endpoints
+
 Request & Response Examples
+
 Error Handling
+
 Testing
+
 Dependencies
 
 # Installation
