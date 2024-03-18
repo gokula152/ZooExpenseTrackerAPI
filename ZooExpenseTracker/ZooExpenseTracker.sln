@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooExpenseTracker.API", "ZooExpenseTracker.API\ZooExpenseTracker.API.csproj", "{CD64FE70-6815-41AC-BA4D-8DE0B7DCE7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooExpenseTracker.Lib", "ZooExpenseTracker.Lib\ZooExpenseTracker.Lib.csproj", "{291C2774-2259-4526-8959-40CAE2AFAAF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooExpenseTracker.Tests", "ZooExpenseTracker.Tests\ZooExpenseTracker.Tests.csproj", "{BBC4DD6D-B5DC-40A9-A16E-FC0F8A27FBCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{240839A0-3877-403F-AAFF-30D7080CDA8F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Downloads\console\pis\animal.csv = ..\..\Downloads\console\pis\animal.csv
+		..\..\Downloads\console\pis\prices.txt = ..\..\Downloads\console\pis\prices.txt
+		..\..\Downloads\console\pis\zoo.xml = ..\..\Downloads\console\pis\zoo.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD64FE70-6815-41AC-BA4D-8DE0B7DCE7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD64FE70-6815-41AC-BA4D-8DE0B7DCE7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD64FE70-6815-41AC-BA4D-8DE0B7DCE7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD64FE70-6815-41AC-BA4D-8DE0B7DCE7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291C2774-2259-4526-8959-40CAE2AFAAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291C2774-2259-4526-8959-40CAE2AFAAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291C2774-2259-4526-8959-40CAE2AFAAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291C2774-2259-4526-8959-40CAE2AFAAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC4DD6D-B5DC-40A9-A16E-FC0F8A27FBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC4DD6D-B5DC-40A9-A16E-FC0F8A27FBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC4DD6D-B5DC-40A9-A16E-FC0F8A27FBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC4DD6D-B5DC-40A9-A16E-FC0F8A27FBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {435F69E8-7304-4E07-8D91-23AC7D93CE99}
+	EndGlobalSection
+EndGlobal
