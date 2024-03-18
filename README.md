@@ -18,11 +18,11 @@ Dependencies
 
 # Installation
 
-To use ZooFeedingCostAPI, follow these steps:
+To use ZooExpenseTrackerAPI, follow these steps:
 
 Clone the repository from GitHub:
 
-git clone https://github.com/gokula152/ZooFeedingCostAPI.git
+git clone https://github.com/gokula152/ZooExpenseTrackerAPI.git
 
 # Endpoints
 Calculate Total Feeding Cost
@@ -63,14 +63,14 @@ json
 
 # Error Handling
 
-ZooFeedingCostAPI handles errors gracefully and returns appropriate HTTP status codes along with error messages in the response body.
+ZooExpenseTrackerAPI handles errors gracefully and returns appropriate HTTP status codes along with error messages in the response body.
 
 # Testing
 
 The project includes unit tests to ensure the correctness of the feeding cost calculation logic. To run the tests.
 
 # Dependencies
-ZooFeedingCostAPI relies on the following dependencies:
+ZooExpenseTrackerAPI relies on the following dependencies:
 
 .NET Core 6.0
 
