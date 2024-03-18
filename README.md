@@ -68,5 +68,10 @@ The project includes unit tests to ensure the correctness of the feeding cost ca
 # Dependencies
 ZooFeedingCostAPI relies on the following dependencies:
 
-.NET Core 6.
+.NET Core 6.0
+
+Swashbuckle.AspNetCore(Swagger Endpoint)
+
+Microsoft.AspNetCore.Http.Features(using IFormFile)
+
 xUnit (for unit testing)
