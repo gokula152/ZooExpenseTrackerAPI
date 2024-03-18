@@ -1,7 +1,7 @@
 # ZooExpenseTrackerAPI
 # Overview
 
-ZooFeedingCostAPI is a .NET Core Web API project developed to calculate the daily cost of feeding animals in a zoo based on their types and weights.
+ZooExpenseTrackerAPI is a .NET Core Web API project developed to calculate the daily cost of feeding animals in a zoo based on their types and weights.
 
 # Table of Contents
 Installation
