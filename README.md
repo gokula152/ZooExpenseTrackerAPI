@@ -1,8 +1,9 @@
 # ZooFeedingCostAPI
-Overview
+# Overview
+
 ZooFeedingCostAPI is a .NET Core Web API project developed to calculate the daily cost of feeding animals in a zoo based on their types and weights.
 
-Table of Contents
+# Table of Contents
 Installation
 Usage
 Endpoints
@@ -11,60 +12,60 @@ Error Handling
 Testing
 Dependencies
 
-Installation
+# Installation
+
 To use ZooFeedingCostAPI, follow these steps:
 
 Clone the repository from GitHub:
 
-bash
-Copy code
-git clone https://github.com/yourusername/ZooFeedingCostAPI.git
-Navigate to the project directory:
+git clone https://github.com/gokula152/ZooFeedingCostAPI.git
 
-bash
-Copy code
-cd ZooFeedingCostAPI
-Build the project:
-
-Copy code
-dotnet build
-Run the project:
-
-arduino
-Copy code
-dotnet run
-Usage
-ZooFeedingCostAPI exposes endpoints to calculate the daily feeding cost for animals in the zoo. It requires input data files in specific formats (prices.txt, animals.csv, zoo.xml) to perform the calculations.
-
-Endpoints
+# Endpoints
 Calculate Total Feeding Cost
-URL: /api/feedingcost
-Method: POST
-Description: Calculates the total feeding cost for all animals in the zoo.
-Parameters: None
-Response: Total feeding cost in JSON format.
-Request & Response Examples
-Request
+
+**URL**: /api/feedingcost
+
+**Method**: POST
+
+**Description**: Calculates the total feeding cost for all animals in the zoo.
+
+**Pesponse**: Total feeding cost in JSON format.
+
+**Request & Response Examples**
+
+**Request:**
 http
-Copy code
-POST /api/feedingcost HTTP/1.1
-Host: localhost:5000
-Response
+
+POST /api/feeding-cost HTTP/1.1
+
+Host: localhost:7041
+
+**Response:**
 json
-Copy code
+
+
 {
-  "totalCost": 1234.56
+  "costPerAnimalType": [
+    {
+      "name": "Simba",
+      "animalType": "Lion",
+      "numberofAnimals": 1,
+      "totalDecimalCost": 200.96
+    }
+  ],
+  "totalDecimalCost": 1609.00896
 }
-Error Handling
+
+
+# Error Handling
+
 ZooFeedingCostAPI handles errors gracefully and returns appropriate HTTP status codes along with error messages in the response body.
 
-Testing
-The project includes unit tests to ensure the correctness of the feeding cost calculation logic. To run the tests, use the following command:
+# Testing
 
-bash
-Copy code
-dotnet test
-Dependencies
+The project includes unit tests to ensure the correctness of the feeding cost calculation logic. To run the tests.
+
+# Dependencies
 ZooFeedingCostAPI relies on the following dependencies:
 
 .NET Core 6.
